@@ -1,0 +1,65 @@
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter_24pt-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    margin: 40px auto;
+    max-width: 80vw;
+}
+html{
+    font-size: calc(8px + 1vw);
+}
+.about{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+img{
+    width: 500px;
+}
+h1{
+    color: rgb(152, 162, 163);
+}
+.date{
+    color: grey;
+    margin-top: 5px;
+    font-size: 0.6rem;
+}
+.lorem{
+    font-size: 0.6rem;
+    color: grey;
+    margin-top: 10px;
+    width: 85%;
+}
+.lorem2{
+    font-size: 0.6rem;
+    color: grey;
+    margin-top: 10px;
+    width: 85%;
+    display: block;
+}
+@media (max-width: 768px) {
+    h1{
+        font-size: 1rem;
+    }
+    .lorem{
+        width: 85%;
+    }
+    .lorem2{
+        display: none;
+    }
+    img{
+        width: 200px;
+    }
+    .about{
+        gap: 10px;
+    }
+}

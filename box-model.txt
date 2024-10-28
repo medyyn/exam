@@ -1,0 +1,17 @@
+Box model ile htmlde her hansi bir elemente css ile tesir etmek olur . box model 4 hisseden ibaretdir. 
+1. padding
+2. margin
+3. content
+4. border
+
+padding :
+padding hemin elementin daxili boslugudur daxilden mesafe vermeyimiz ucun elverisli usuldur
+
+margin :
+margin elementin daxili boslugudur daxilden mesafe vererek yerini deyise bilerik.
+
+border :
+elementin serhedidir
+
+content :
+elementin ozudur bu yazi ola biler her hansi teq ola biler ferq etmir.

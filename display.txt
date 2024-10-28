@@ -1,0 +1,12 @@
+yigdigimiz saytlarda hemise dizayna ehtiyac duyulur ve her elementin ozone mexsus duzulme qaydasi olmalidir
+biz bunu cssde display ile ede bilerik. elementlere child , parent classlarini verib davranislarini mueyyenlesdire bilerik.
+displayed bunlar ola biler blok , inline-blok
+
+
+blok : 
+oz xettinde movcud olur ve setir boyu uzanir (width verilmeyibse)
+
+
+inline-blok :
+burdaki elementler dayandigi yerdeki elementlerin dayandigi yere mane ola bilmez
+bir xet uzerinde bir nece inline-blox elementi dayana biler.

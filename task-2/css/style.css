@@ -1,0 +1,68 @@
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter_24pt-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    margin: 40px auto;
+    max-width: 20vw;
+}
+html{
+    font-size: calc(8px + 1vw);
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: rgb(88, 88, 88);
+    font-weight: 300;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input{
+    outline: none;
+    padding: .3125rem .625rem;
+}
+input::placeholder{
+    color: grey;
+    font-size: 0.6rem;
+    font-style: italic;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+}
+.forgot > p{
+    font-size: 0.5rem;
+    color: rgb(14, 117, 201);
+}
+.days{
+    display: flex;
+    font-size: 0.5rem;
+    gap: 3px;
+    color: grey;
+    align-items: center;
+}
+a{
+    color: white;
+    font-size: 0.7rem;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(14, 117, 201);
+    border: none;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 33vw;
+    }
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter_24pt-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    text-decoration: none;
+    list-style-type: none;
+}
+html{
+    font-size: calc(8px + 1vw);
+}
+.cards{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.20rem;
+    margin-left: 25%;
+}
+.cards > .card > h2 {
+    font-size: 0.9rem;
+    color: rgb(129, 129, 129);
+}
+.cards > .card > ul > li {
+    margin-top: 0.4rem;
+    font-size: 0.5rem;
+}
+.cards > .card > svg {
+    margin-top: 0.4rem;
+}
+.card{
+    padding: .640rem 1.900rem 2rem 1.900rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .cards > .card > svg {
+        width: 65px;
+        height: 65px;
+    }
+    .cards{
+        margin-left: 20%;
+    }
+}
